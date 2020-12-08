@@ -39,7 +39,7 @@ function setupModeButtons(){
 		});
 	}
 }
-
+/* I thinks this sets the quares to appear and disappear*/
 function setupSquares(){
 	for(var i = 0; i < squares.length; i++){
 	//add click listeners to squares
@@ -91,7 +91,7 @@ async function updateColorName(){
 		colorDisplay.textContent = colorData.name.value + "-ish"; 
 	}
 }
-
+/* this resets the game*/
 function reset(){
 	resetPressed = true;
 	colors = generateRandomColors(numSquares);
@@ -116,7 +116,7 @@ function reset(){
 resetButton.addEventListener("click", function(){
 	reset();
 })
-
+/*changes the color*/
 function changeColors(color){
 	//loop through all squares
 	for(var i = 0; i < squares.length; i++){

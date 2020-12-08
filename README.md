@@ -28,21 +28,21 @@ We&#39;re going to explore a website that you run right on your desktop today. U
     b.  What happens inside the CSS file when you click on various elements in the page? 
         The various CSS elements are being highlight and modified.  For example, any time that I click on a color if it is wrong that piece of code is highlighted in the inspector.
         i.  What elements does the CSS file change? 
-            The css changes the color
+            Body, container, square, button.  
     c.  What happens inside the HTML file when you click on various elements in the page? 
         The background element of the H1 heading changes when you get the right answer. 
     d.  Use breakpoints in the JavaScript to walk through what happens when you click on various elements on the page. 
 
         i.  What happens when you click on a color block?
-
+            I broke the code at line 120 and 145 and that stopped the buttons from working and changing color.
         ii.  What happens when you click on the winning color block? 
-
+            When I broke at line 76 I was unable to play agian because the break turn the change color function off.
         iii.  What happens when you click "Play again"? 
-
+            Also when I broke line 76 the play again functionality was turned off.
         iv.  What HTML and CSS elements can JavaScript change? 
 
         v.  How does score keeping work? 
-
+            Lose a point for each missed click.  Get 5 points for the correct answer.  
         vi.  Why does it persist through closing the page? 
 
         vii.  When you win what happens when the title changes? 
