@@ -40,7 +40,7 @@ We&#39;re going to explore a website that you run right on your desktop today. U
         iii.  What happens when you click "Play again"? 
             Also when I broke line 76 the play again functionality was turned off.
         iv.  What HTML and CSS elements can JavaScript change? 
-
+            All of them
         v.  How does score keeping work? 
             Lose a point for each missed click.  Get 5 points for the correct answer.  
         vi.  Why does it persist through closing the page? 
@@ -58,7 +58,7 @@ We&#39;re going to explore a website that you run right on your desktop today. U
         xii.  Why use one over the other? 
 
 5.  Add comments to the JavaScript code explaining what you think each function does. 
-
+        
 6.  As you went through this process which of the 3E's did you draw from most? How?
 
     a.  Curiosity, Deal with Uncertainty, Observation Skills
